@@ -1,7 +1,7 @@
 package com.sri.pi.incidente.model;
 
 
-import com.sri.pi.cliente.model.Cliente;
+import com.sri.pi.client.model.Client;
 
 import com.sri.pi.tecnico.model.Tecnico;
 import jakarta.persistence.*;
@@ -35,7 +35,7 @@ public class Incidente {
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")
-    private Cliente cliente;
+    private Client client;
 
     private LocalDate estimateTime;
 

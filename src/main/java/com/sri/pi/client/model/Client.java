@@ -1,19 +1,19 @@
-package com.sri.pi.cliente.model;
+package com.sri.pi.client.model;
 
-import com.sri.pi.incidente.model.Incidente;
 import com.sri.pi.persona.model.Persona;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDate;
-import java.util.HashSet;
-import java.util.Set;
 
 
 @Data
 @Entity
-public class Cliente extends Persona {
+@Getter@Setter
+public class Client extends Persona {
     @Id
     private Long Id;
     private String razonsocial;
@@ -24,4 +24,6 @@ public class Cliente extends Persona {
     public LocalDate newhire() {
         return newhire;
     }
+
+
 }

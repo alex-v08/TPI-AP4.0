@@ -1,7 +1,9 @@
 package com.sri.pi.persona.model;
 
-import com.sri.pi.persona.enums.Rol;
 import com.sri.pi.persona.enums.TipoDoc;
+
+import com.sri.pi.persona.enums.Rol;
+
 
 
 import java.time.LocalDate;
