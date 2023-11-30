@@ -1,4 +1,4 @@
-package com.sri.pi.incidente.model;
+package com.sri.pi.incident.model;
 
 
 import com.sri.pi.client.model.Client;
@@ -15,7 +15,7 @@ import java.util.Set;
 @Data
 @Entity
 
-public class Incidente {
+public class Incident {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
