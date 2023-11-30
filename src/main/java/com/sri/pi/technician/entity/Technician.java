@@ -1,8 +1,7 @@
-package com.sri.pi.tecnico.model;
+package com.sri.pi.technician.entity;
 
 
-import com.sri.pi.persona.enums.Aplicaciones;
-import com.sri.pi.especialidad.model.Especialidad;
+import com.sri.pi.skill.model.Especialidad;
 import com.sri.pi.persona.enums.MedioCom;
 import com.sri.pi.persona.model.Persona;
 import jakarta.persistence.*;
@@ -13,7 +12,7 @@ import java.util.Set;
 
 @Data
 @Entity
-public class Tecnico extends Persona {
+public class Technician extends Persona {
     @Id
     private Long Id;
     private Boolean isDisponible;
@@ -28,7 +27,7 @@ public class Tecnico extends Persona {
     private MedioCom medioCom;
 
 
-    public Tecnico() {
+    public Technician() {
         super();
     }
 

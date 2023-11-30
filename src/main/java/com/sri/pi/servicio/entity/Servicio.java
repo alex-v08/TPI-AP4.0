@@ -1,4 +1,4 @@
-package com.sri.pi.servicio.model;
+package com.sri.pi.servicio.entity;
 
 
 import jakarta.persistence.Entity;

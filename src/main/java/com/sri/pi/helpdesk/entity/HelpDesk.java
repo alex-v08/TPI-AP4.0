@@ -1,4 +1,4 @@
-package com.sri.pi.helpdesk.model;
+package com.sri.pi.helpdesk.entity;
 
 
 import com.sri.pi.persona.model.Persona;
@@ -25,4 +25,7 @@ public class HelpDesk extends Persona {
     public LocalDate newhire() {
         return newhire;
     }
+
+
+
 }

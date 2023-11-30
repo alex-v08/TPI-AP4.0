@@ -3,7 +3,7 @@ package com.sri.pi.incidente.model;
 
 import com.sri.pi.client.model.Client;
 
-import com.sri.pi.tecnico.model.Tecnico;
+import com.sri.pi.technician.entity.Technician;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -30,7 +30,7 @@ public class Incidente {
     @JoinTable (name = "incidente_especialidad",
             joinColumns = @JoinColumn(name = "incidente_id"),
             inverseJoinColumns = @JoinColumn(name = "especialidad_id"))
-    private Set<Tecnico> tecnicos;
+    private Set<Technician> technicians;
 
 
     @ManyToOne

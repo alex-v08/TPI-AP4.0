@@ -1,4 +1,4 @@
-package com.sri.pi.empleado.model;
+package com.sri.pi.employee.entity;
 
 
 import com.sri.pi.persona.model.Persona;

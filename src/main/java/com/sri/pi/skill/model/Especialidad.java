@@ -1,4 +1,4 @@
-package com.sri.pi.especialidad.model;
+package com.sri.pi.skill.model;
 
 
 import jakarta.persistence.*;
